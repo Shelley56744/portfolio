@@ -148,10 +148,9 @@ if (!reduceMotion) {
 document.getElementById('year').textContent = new Date().getFullYear();
 
 
-// 9. 追蹤（Google Tag Manager）：把重要的互動丟進 dataLayer，在 GTM 裡用「自訂事件」觸發條件接到 GA4
-window.dataLayer = window.dataLayer || [];
+// 9. 追蹤（Google Analytics GA4）：把重要的互動送成 GA4 事件
 function track(event, params = {}) {
-  window.dataLayer.push({ event, ...params });
+  if (typeof window.gtag === 'function') window.gtag('event', event, params);
 }
 
 // 打開作品彈出視窗（看更多／看影片）
