@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- 手繪感雙八分音符，音符頭畫成愛心 -->
+  <defs>
+    <filter id="sketch">
+      <feTurbulence type="fractalNoise" baseFrequency="1" numOctaves="2" seed="9"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6"/>
+    </filter>
+  </defs>
+  <g filter="url(#sketch)" stroke="#3A2A2D" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 72 L30 22 L78 12 L78 62" fill="none" stroke-width="4.5"/>
+    <path d="M30 22 L78 12 M30 30 L78 20" fill="none" stroke-width="4.5"/>
+    <path d="M30 70 C30 62 18 60 16 68 C14 76 24 84 30 86 C36 82 42 74 38 68 C35 63 30 66 30 70 Z" fill="#D63A44" stroke-width="2.5"/>
+    <path d="M78 60 C78 52 66 50 64 58 C62 66 72 74 78 76 C84 72 90 64 86 58 C83 53 78 56 78 60 Z" fill="#D63A44" stroke-width="2.5"/>
+  </g>
+</svg>

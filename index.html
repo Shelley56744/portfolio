@@ -1,0 +1,795 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>黃宥瑄 Shelley｜個人作品集</title>
+  <!-- favicon：金魚 -->
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="images/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="images/favicon-64.png" sizes="64x64" type="image/png">
+  <link rel="apple-touch-icon" href="images/favicon-180.png">
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Chiron+GoRound+TC:wght@400..900&display=swap" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="80">
+
+  <!-- ========== Navbar ========== -->
+  <nav id="mainNav" class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home">
+        <img src="images/goldfish.svg" alt="" width="40"> Shelley
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+              aria-controls="navMenu" aria-expanded="false" aria-label="開啟選單">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">關於我</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">專長</a></li>
+          <li class="nav-item"><a class="nav-link" href="#works">作品</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">經歷</a></li>
+          <li class="nav-item"><a class="nav-link btn-contact" href="#contact">聯絡我</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== 首頁========== -->
+  <header id="home" class="hero">
+    <img src="images/goldfish.svg" class="deco fish-swim d-none d-md-block" style="top:22%; left:4%; width:110px;" data-speed="0.15" alt="">
+    <img src="images/spiral.svg" class="deco d-none d-md-block" style="top:68%; left:40%; width:90px;" data-speed="-0.1" alt="">
+    <img src="images/sparkle.svg" class="deco twinkle" style="top:16%; right:8%; width:34px;" data-speed="0.2" alt="">
+    <img src="images/note.svg" class="deco d-none d-lg-block" style="bottom:10%; left:30%; width:56px;" data-speed="0.12" alt="">
+
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-12 col-md-7 text-center text-md-start">
+          <p class="eyebrow">國立陽明交通大學・傳播與科技學系</p>
+          <h1 class="hero-name">
+            <span class="roll-text">黃宥瑄</span>
+            <span class="hand">Shelley</span>
+          </h1>
+          <p class="hero-slogan roll-text">用設計說故事，用行動實踐想法。</p>
+          <p class="hero-intro">
+            我喜歡觀察生活，也喜歡把想法做成能引起共鳴的內容。
+            擅長專案管理、使用者體驗設計、社群行銷和影音剪輯，平時也會用 vibe coding 做小遊戲和網頁。
+          </p>
+          <div class="d-flex gap-3 justify-content-center justify-content-md-start">
+            <a href="#works" class="btn btn-fish">看我的作品</a>
+            <a href="#contact" class="btn btn-outline-fish">跟我聊聊</a>
+          </div>
+        </div>
+        <div class="col-12 col-md-5">
+          <div class="photo-frame">
+            <img src="images/profile.jpg" class="img-fluid" alt="黃宥瑄的形象照">
+            <img src="images/star.svg" class="photo-star star-1" alt="">
+            <img src="images/star.svg" class="photo-star star-2" alt="">
+            <img src="images/flower.svg" class="photo-flower" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========== 關於我 ========== -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-title">
+          <span class="hand">About me</span>
+          <h2 class="roll-text">關於我</h2>
+        </div>
+
+        <div class="row g-4 align-items-center">
+          <div class="col-12 col-md-5 col-lg-4">
+            <img src="images/graduation.jpg" class="img-fluid rounded-4 about-photo reveal" alt="穿著學士服、手拿花束的黃宥瑄">
+          </div>
+          <div class="col-12 col-md-7 col-lg-8">
+            <p class="lead reveal">
+              我相信「表達」是建立影響力的起點。從擔任帶領 22 位幹部與百人社團的吉他社社長，到品牌校園大使和畢業製作，
+              我最常扮演的角色是：創意發想，並在討論的最後把大家的想法整理好、讓創意落地的那個人。
+            </p>
+            <div class="row row-cols-1 row-cols-sm-2 g-3 mt-2">
+              <div class="col reveal">
+                <div class="info-box">
+                  <i class="bi bi-mortarboard"></i>
+                  <h3>學歷</h3>
+                  <p>國立陽明交通大學<br>傳播與科技學系<br><small>輔修人文社會學系<br>跨領域創業與創新管理</small></p>
+                </div>
+              </div>
+              <div class="col reveal">
+                <div class="info-box">
+                  <i class="bi bi-translate"></i>
+                  <h3>語言</h3>
+                  <p>多益金色證書 <strong>895</strong> 分<br>全民英檢中高級</p>
+                </div>
+              </div>
+            </div>
+
+            <h3 class="small-title mt-4">軟實力</h3>
+            <div class="tag-list reveal">
+              <span>跨部門溝通</span><span>團隊合作</span><span>同理心</span><span>表達力</span>
+              <span>創意</span><span>洞察力</span><span>批判性思考</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 專長與技能 ========== -->
+    <section id="skills" class="section section-pink">
+      <img src="images/star.svg" class="deco d-none d-lg-block" style="top:12%; right:6%; width:70px;" data-speed="0.12" alt="">
+      <img src="images/flower.svg" class="deco d-none d-lg-block" style="bottom:10%; left:3%; width:56px;" data-speed="-0.08" alt="">
+      <div class="container">
+        <div class="section-title">
+          <span class="hand">What I do</span>
+          <h2 class="roll-text">專長</h2>
+        </div>
+
+        <!-- 手機 1 欄、平板 2 欄、桌機 3 欄 -->
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col reveal">
+            <div class="skill-card">
+              <i class="bi bi-kanban"></i>
+              <h3>專案管理</h3>
+              <p>畢業製作《若失公寓》、繪本工作坊、吉他社社長，我習慣先規劃好分工和時程，再逐一完成。</p>
+            </div>
+          </div>
+          <div class="col reveal">
+            <div class="skill-card">
+              <i class="bi bi-phone"></i>
+              <h3>使用者體驗設計</h3>
+              <p>在人機互動課做「Knowii 家教媒合 App」，以台灣家教市場需求、使用者觀點出發，製作出 APP 原型。</p>
+              <a class="skill-link" href="https://www.figma.com/proto/DQ2xrmS9WzWLtnxaOoBYue/Prototype_Group8?node-id=1-2&p=f&t=9S7n8UbSLB0X6g2Y-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2" target="_blank" rel="noopener">看 Figma Demo <i class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </div>
+          <div class="col reveal">
+            <div class="skill-card">
+              <i class="bi bi-controller"></i>
+              <h3>Vibe Coding</h3>
+              <p>遊戲與網頁設計：用 JavaScript 做貪吃蛇小遊戲，也做了《若失公寓》的互動網頁和線上小遊戲。</p>
+              <a class="skill-link" href="https://shelley56744.github.io/lost-apartment-quiz/" target="_blank" rel="noopener">玩《若失公寓》互動小遊戲 <i class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </div>
+          <div class="col reveal">
+            <div class="skill-card">
+              <i class="bi bi-instagram"></i>
+              <h3>社群行銷</h3>
+              <p>經營 IG @cutie_shelley，近 30 天觀看 4.1 萬次；擔任超過 3 個品牌的校園大使。</p>
+            </div>
+          </div>
+          <div class="col reveal">
+            <div class="skill-card">
+              <i class="bi bi-film"></i>
+              <h3>影音剪輯</h3>
+              <p>從活動預告片到品牌 Reels，我著重節奏和多種角度，讓人看得下去、記得住，更能看到從表面看不到的視角。</p>
+            </div>
+          </div>
+          <div class="col reveal">
+            <div class="skill-card tools">
+              <h3 class="mb-3">工具技能</h3>
+              <div class="tool">
+                <div class="d-flex justify-content-between"><span>Canva</span><span class="level">精通</span></div>
+                <div class="progress" role="progressbar" aria-label="Canva 精通" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar" style="width: 95%"></div>
+                </div>
+              </div>
+              <div class="tool">
+                <div class="d-flex justify-content-between"><span>CapCut</span><span class="level">精通</span></div>
+                <div class="progress" role="progressbar" aria-label="CapCut 精通" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="tool">
+                <div class="d-flex justify-content-between"><span>Python</span><span class="level">普通</span></div>
+                <div class="progress" role="progressbar" aria-label="Python 普通" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar" style="width: 55%"></div>
+                </div>
+              </div>
+              <div class="tool">
+                <div class="d-flex justify-content-between"><span>Unity</span><span class="level">初階</span></div>
+                <div class="progress" role="progressbar" aria-label="Unity 初階" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar" style="width: 30%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 輪播圖 ========== -->
+    <section id="works" class="section">
+      <img src="images/goldfish.svg" class="deco fish-swim flip d-none d-md-block" style="top:6%; right:5%; width:90px;" data-speed="0.1" alt="">
+      <div class="container">
+        <div class="section-title">
+          <span class="hand">Projects</span>
+          <h2 class="roll-text">精選作品</h2>
+        </div>
+
+        <!-- Carousel -->
+        <div id="workCarousel" class="carousel slide mb-5 reveal" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#workCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="第 1 張"></button>
+            <button type="button" data-bs-target="#workCarousel" data-bs-slide-to="1" aria-label="第 2 張"></button>
+            <button type="button" data-bs-target="#workCarousel" data-bs-slide-to="2" aria-label="第 3 張"></button>
+            <button type="button" data-bs-target="#workCarousel" data-bs-slide-to="3" aria-label="第 4 張"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/lost-apartment.jpg" class="d-block w-100" alt="《若失公寓》主視覺">
+              <div class="carousel-caption">
+                <h3>若失公寓｜畢業製作</h3>
+                <p>互動式體驗展・2026/11/14–11/15</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/mirror-poster.jpg" class="d-block w-100 contain" alt="《鏡行式》畢業成果展海報">
+              <div class="carousel-caption">
+                <h3>鏡行式｜116 級畢業成果展</h3>
+                <p>擔任公關行銷組組長</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/work-knowii.jpg" class="d-block w-100 contain" alt="Knowii App 原型畫面">
+              <div class="carousel-caption">
+                <h3>Knowii 家教媒合 App</h3>
+                <p>人機互動概論課程成果</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/kabao.jpg" class="d-block w-100" alt="《跨世代真「新」話》影片封面">
+              <div class="carousel-caption">
+                <h3>跨世代真「新」話</h3>
+                <p>喀報｜長影音製作</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#workCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">上一張</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#workCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">下一張</span>
+          </button>
+        </div>
+
+        <!-- 手機、平板、桌機 -->
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col reveal">
+            <div class="card work-card h-100">
+              <div class="work-img"><img src="images/lost-apartment.jpg" class="card-img-top" alt="《若失公寓》主視覺"></div>
+              <div class="card-body">
+                <span class="badge">畢業製作</span>
+                <h3 class="card-title">若失公寓</h3>
+                <p class="card-text">以「若有所失」為主題的互動式體驗，走進租客們留下的房間，再佈置屬於自己的一間。</p>
+              </div>
+              <div class="card-footer"><button class="btn btn-sm btn-fish" data-bs-toggle="modal" data-bs-target="#modalLost">看更多</button></div>
+            </div>
+          </div>
+          <div class="col reveal">
+            <div class="card work-card h-100">
+              <div class="work-img"><img src="images/mirror-poster.jpg" class="card-img-top object-top" alt="《鏡行式》海報"></div>
+              <div class="card-body">
+                <span class="badge">公關行銷組組長</span>
+                <h3 class="card-title">鏡行式 畢業成果展</h3>
+                <p class="card-text">傳播與科技學系 116 級畢業成果展，負責帶領公關行銷組對外宣傳。</p>
+              </div>
+              <div class="card-footer"><button class="btn btn-sm btn-fish" data-bs-toggle="modal" data-bs-target="#modalMirror">看更多</button></div>
+            </div>
+          </div>
+          <div class="col reveal">
+            <div class="card work-card h-100">
+              <div class="work-img"><img src="images/kabao.jpg" class="card-img-top" alt="《跨世代真「新」話》影片封面"></div>
+              <div class="card-body">
+                <span class="badge">喀報｜課程成果</span>
+                <h3 class="card-title">跨世代真「新」話</h3>
+                <p class="card-text">長影音製作，來場三代同堂家庭的隔空真心對話。</p>
+              </div>
+              <div class="card-footer"><button class="btn btn-sm btn-fish" data-bs-toggle="modal" data-bs-target="#modalKabao">看影片</button></div>
+            </div>
+          </div>
+          <div class="col reveal">
+            <div class="card work-card h-100">
+              <div class="work-img"><img src="images/book-1.jpg" class="card-img-top object-top" alt="繪本《小豆的魔法之旅》內頁"></div>
+              <div class="card-body">
+                <span class="badge">自主學習專案</span>
+                <h3 class="card-title">風城書屋 繪本工作坊</h3>
+                <p class="card-text">《小豆的魔法之旅》親子共讀繪本工作坊，從報名、流程到現場帶活動。</p>
+              </div>
+              <div class="card-footer"><button class="btn btn-sm btn-fish" data-bs-toggle="modal" data-bs-target="#modalBook">看更多</button></div>
+            </div>
+          </div>
+          <div class="col reveal">
+            <div class="card work-card h-100">
+              <div class="work-img"><img src="images/logi-unboxing.jpg" class="card-img-top" style="object-position: center 40%;" alt="黃宥瑄開箱 Logitech MX 系列滑鼠與鍵盤"></div>
+              <div class="card-body">
+                <span class="badge">第五屆校園大使</span>
+                <h3 class="card-title">Logitech 羅技</h3>
+                <p class="card-text">MX 系列開箱 Reels 觀看 <strong>1.5 萬次</strong>，大約是我粉絲數的 15 倍。</p>
+              </div>
+              <div class="card-footer"><button class="btn btn-sm btn-fish" data-bs-toggle="modal" data-bs-target="#modalLogi">看更多</button></div>
+            </div>
+          </div>
+          <div class="col reveal">
+            <div class="card work-card h-100">
+              <div class="work-img"><img src="images/ambassador-77.jpg" class="card-img-top" alt="黃宥瑄拿著 77 新貴派拍攝宣傳照"></div>
+              <div class="card-body">
+                <span class="badge">第三屆校園大使</span>
+                <h3 class="card-title">宏亞食品 77 品牌</h3>
+                <p class="card-text">走進品牌工廠參訪，也用生活化的情境拍攝產品新貴派。</p>
+              </div>
+              <div class="card-footer"><button class="btn btn-sm btn-fish" data-bs-toggle="modal" data-bs-target="#modal77">看更多</button></div>
+            </div>
+          </div>
+          <div class="col reveal">
+            <div class="card work-card h-100">
+              <div class="work-img"><img src="images/work-knowii.jpg" class="card-img-top" alt="Knowii App 原型畫面"></div>
+              <div class="card-body">
+                <span class="badge">UX 設計</span>
+                <h3 class="card-title">Knowii 家教媒合 App</h3>
+                <p class="card-text">解決家教資訊零散、缺乏安全媒合機制的問題，做出 App 原型。</p>
+              </div>
+              <div class="card-footer"><button class="btn btn-sm btn-fish" data-bs-toggle="modal" data-bs-target="#modalKnowii">看更多</button></div>
+            </div>
+          </div>
+          <div class="col reveal">
+            <div class="card work-card h-100">
+              <div class="work-img"><img src="images/work-snake.jpg" class="card-img-top" alt="貪吃蛇遊戲畫面"></div>
+              <div class="card-body">
+                <span class="badge">Vibe Coding</span>
+                <h3 class="card-title">貪吃蛇小遊戲</h3>
+                <p class="card-text">JavaScript 網頁程式設計課的作品，有三種主題和 30 秒挑戰模式。</p>
+              </div>
+              <div class="card-footer"><button class="btn btn-sm btn-fish" data-bs-toggle="modal" data-bs-target="#modalSnake">看更多</button></div>
+            </div>
+          </div>
+          <div class="col reveal">
+            <div class="card work-card h-100">
+              <div class="work-img"><img src="images/work-cv.jpg" class="card-img-top object-top" alt="以金魚和水波為主題的創意履歷"></div>
+              <div class="card-body">
+                <span class="badge">數位影像設計</span>
+                <h3 class="card-title">創意 CV〈X：交匯〉</h3>
+                <p class="card-text">用金魚穿梭水波的畫面，寫下一頁關於我的視覺履歷。</p>
+              </div>
+              <div class="card-footer"><button class="btn btn-sm btn-fish" data-bs-toggle="modal" data-bs-target="#modalCv">看更多</button></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 經歷 ========== -->
+    <section id="experience" class="section section-pink">
+      <img src="images/spiral.svg" class="deco d-none d-md-block" style="top:10%; left:4%; width:80px;" data-speed="0.1" alt="">
+    <img src="images/note.svg" class="deco d-none d-lg-block" style="top:46%; right:6%; width:80px;" data-speed="-0.12" alt="">
+    <img src="images/star.svg" class="deco d-none d-lg-block" style="bottom:8%; left:8%; width:48px;" data-speed="0.08" alt="">
+      <div class="container narrow">
+        <div class="section-title">
+          <span class="hand">Experience</span>
+          <h2 class="roll-text">經歷</h2>
+        </div>
+
+        <div class="accordion reveal" id="expAccordion">
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#exp1" aria-expanded="true" aria-controls="exp1">
+                <i class="bi bi-megaphone me-2"></i>校園大使與社群經營
+              </button>
+            </h3>
+            <div id="exp1" class="accordion-collapse collapse show" data-bs-parent="#expAccordion">
+              <div class="accordion-body">
+                <p>擔任 Logitech 第五屆、宏亞食品 77 品牌第三屆，以及存在音樂、唯勝教育的校園大使。</p>
+                <ul>
+                  <li>產出約 15 篇圖文與短影音，觸及約 8 萬人次</li>
+                  <li>Logitech MX 系列開箱 Reels 觀看 1.5 萬次、89 個讚</li>
+                  <li>個人社群增加超過 100 位粉絲，近 30 天觀看 4.1 萬次</li>
+                  <li>協助品牌在校園舉辦 3 場贊助活動</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exp2" aria-expanded="false" aria-controls="exp2">
+                <i class="bi bi-people me-2"></i>社團與志工
+              </button>
+            </h3>
+            <div id="exp2" class="accordion-collapse collapse" data-bs-parent="#expAccordion">
+              <div class="accordion-body">
+                <ul>
+                  <li><strong>吉他社社長（2024–2025）</strong>：帶領 22 位幹部，舉辦超過十場大小活動，也把成果發表會辦成一場展覽。</li>
+                  <li><strong>山服社課輔志工（2023 至今）</strong>：陪伴偏鄉孩子課業與生活，並剪輯圓夢營回顧影片。</li>
+                  <li><strong>高中社團公關長</strong>：經營社團 IG，第一次學會排版、文案和社群規劃。</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exp3" aria-expanded="false" aria-controls="exp3">
+                <i class="bi bi-award me-2"></i>得獎與競賽
+              </button>
+            </h3>
+            <div id="exp3" class="accordion-collapse collapse" data-bs-parent="#expAccordion">
+              <div class="accordion-body">
+                <ul>
+                  <li><strong>全國第一名｜第 14 屆 TBSA 大專創新企劃競賽</strong>：以新竹香山玉蘭花結合茶包設計，自創品牌「蘭寧時光」，從全國 200 多組中勝出。</li>
+                  <li><strong>決賽入圍｜第 4 屆統一超商關係企業商業競賽</strong>：從 60 多組中脫穎而出進入全國前六強。</li>
+                  <li><strong>政大廣告營</strong>：EDIFIER 耳罩式耳機提案，獲第二名與最佳簡報獎。</li>
+                  <li><strong>抓馬盃最佳創意獎</strong>：負責預告片剪輯並參與演出。</li>
+                  <li><strong>大一上書卷獎</strong></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 聯絡我：表單 ========== -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-12 col-lg-5">
+            <div class="section-title text-start">
+              <span class="hand">Say hi</span>
+              <h2 class="roll-text">聯絡我</h2>
+            </div>
+            <p>不管是品牌合作、校園活動、實習機會，或只是想聊聊作品，都歡迎留言給我！</p>
+            <ul class="contact-list">
+              <li><i class="bi bi-envelope"></i><a href="mailto:nga10291231@gmail.com">nga10291231@gmail.com</a></li>
+              <li><i class="bi bi-instagram"></i><a href="https://www.instagram.com/cutie_shelley/" target="_blank" rel="noopener">@cutie_shelley</a></li>
+            </ul>
+            <img src="images/goldfish.svg" class="contact-fish d-none d-lg-block" alt="">
+          </div>
+
+          <div class="col-12 col-lg-7">
+            <form id="contactForm" class="contact-form needs-validation" novalidate>
+              <div class="row g-3">
+                <div class="col-12 col-md-6">
+                  <label for="name" class="form-label">姓名</label>
+                  <input type="text" class="form-control" id="name" placeholder="怎麼稱呼你？" required>
+                  <div class="invalid-feedback">請填寫姓名</div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                  <div class="invalid-feedback">請填寫正確的 Email</div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <label for="topic" class="form-label">想聊的事</label>
+                  <select class="form-select" id="topic" required>
+                    <option value="" selected disabled>請選擇</option>
+                    <option>品牌合作／校園大使</option>
+                    <option>專案企劃</option>
+                    <option>影音剪輯</option>
+                    <option>實習機會</option>
+                    <option>其他</option>
+                  </select>
+                  <div class="invalid-feedback">請選擇一個項目</div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <p class="form-label mb-2">希望怎麼回覆你？</p>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="reply" id="replyMail" value="email" checked>
+                    <label class="form-check-label" for="replyMail">Email</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="reply" id="replyIg" value="ig">
+                    <label class="form-check-label" for="replyIg">Instagram</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <label for="message" class="form-label">訊息</label>
+                  <textarea class="form-control" id="message" rows="4" placeholder="想對我說的話…" required></textarea>
+                  <div class="invalid-feedback">請寫一點訊息～</div>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="agree" required>
+                    <label class="form-check-label" for="agree">我同意 Shelley 用以上資料聯絡我</label>
+                    <div class="invalid-feedback">請勾選同意</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-fish px-4">送出訊息 <i class="bi bi-send"></i></button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== Google 地圖 ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row g-4 align-items-center">
+        <div class="col-12 col-md-6">
+          <h2 class="footer-title">來看展吧！</h2>
+          <p>《若失公寓》和《鏡行式》校內展都在陽明交大光復校區。</p>
+          <ul class="list-unstyled small">
+            <li><i class="bi bi-geo-alt"></i> 若失公寓：11/14–11/15　人社三館 201 室</li>
+            <li><i class="bi bi-geo-alt"></i> 鏡行式校內展：12/1–12/3　人社二館大廳</li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="ratio ratio-16x9 map-box">
+            <iframe src="https://www.google.com/maps?q=%E5%9C%8B%E7%AB%8B%E9%99%BD%E6%98%8E%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%B8%E5%85%89%E5%BE%A9%E6%A0%A1%E5%8D%80&output=embed"
+                    title="陽明交大光復校區地圖" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center gap-2 small">
+        <p class="mb-0">© <span id="year">2026</span> 黃宥瑄 Shelley</p>
+        <a href="#home" class="back-top">回到頂端 <i class="bi bi-arrow-up"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== 彈出視窗 ========== -->
+  <div class="modal fade" id="modalLost" tabindex="-1" aria-labelledby="modalLostLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalLostLabel">若失公寓｜畢業製作</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="關閉"></button>
+        </div>
+        <div class="modal-body">
+          <img src="images/lost-apartment.jpg" class="img-fluid rounded-3 mb-3" alt="《若失公寓》主視覺">
+          <p>畢業前後那種「若有所失」的心情，是我們這組想做的主題。參觀者會走進四位租客留下的房間，找物件、解線索、和裝置互動，最後佈置一間屬於自己的房間。</p>
+          <ul>
+            <li><strong>我的工作：</strong>負責租客宇廷房間的體驗設計，並負責募資、社群經營，也參與專案進度管理。</li>
+            <li><strong>展期：</strong>2026/11/14（六）–11/15（日）</li>
+            <li><strong>地點：</strong>陽明交大光復校區 人社三館 201 室</li>
+          </ul>
+
+          <!-- 嵌入線上互動小遊戲 -->
+          <h4 class="modal-sub">線上互動小遊戲</h4>
+          <div class="quiz-embed mb-2">
+            <iframe src="https://shelley56744.github.io/lost-apartment-quiz/" title="若失公寓互動小遊戲" loading="lazy"></iframe>
+          </div>
+          <p class="small text-muted">畫面太小的話，可以按下面的「開新視窗玩」。</p>
+
+          <div class="d-flex flex-wrap gap-2">
+            <a class="btn btn-sm btn-fish" href="https://shelley56744.github.io/lost-apartment-quiz/" target="_blank" rel="noopener">開新視窗玩</a>
+            <a class="btn btn-sm btn-outline-fish" href="https://lostapt116.github.io/lost-apartment/" target="_blank" rel="noopener">官方網站</a>
+            <a class="btn btn-sm btn-outline-fish" href="https://www.instagram.com/lost.apt/" target="_blank" rel="noopener">IG @lost.apt</a>
+            <a class="btn btn-sm btn-outline-fish" href="https://www.zeczec.com/projects/lost-apt" target="_blank" rel="noopener">嘖嘖募資頁</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalMirror" tabindex="-1" aria-labelledby="modalMirrorLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalMirrorLabel">鏡行式｜116 級畢業成果展</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="關閉"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row g-3">
+            <div class="col-12 col-md-5"><img src="images/mirror-poster.jpg" class="img-fluid rounded-3" alt="《鏡行式》海報"></div>
+            <div class="col-12 col-md-7">
+              <p>「鏡子」是觀看自我的媒介，每一件作品都是創作者價值的倒影。這是傳播與科技學系 116 級的畢業成果展。</p>
+              <ul>
+                <li><strong>我的角色：</strong>公關行銷組組長，帶領組員規劃展覽的對外宣傳與社群內容。</li>
+                <li><strong>校內展：</strong>12/1–12/3　陽明交大 人社二館大廳</li>
+                <li><strong>校外展：</strong>12/26–12/27　台北市 樹心會館</li>
+              </ul>
+              <a class="btn btn-sm btn-outline-fish" href="https://www.instagram.com/dcatgrad116/" target="_blank" rel="noopener">IG @dcatgrad116</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalKabao" tabindex="-1" aria-labelledby="modalKabaoLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalKabaoLabel">喀報｜《跨世代真「新」話》長影音製作</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="關閉"></button>
+        </div>
+        <div class="modal-body">
+          <!-- 用 Bootstrap 讓影片保持 16:9 -->
+          <div class="ratio ratio-16x9 rounded-3 overflow-hidden mb-3">
+            <iframe src="https://www.youtube.com/embed/smiAcO3UbiQ" title="跨世代真「新」話" loading="lazy"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <p>喀報課程的長影音作品，訪問不同年紀的受訪者，把他們想說的真心話剪成一支影片。</p>
+          <a class="btn btn-sm btn-outline-fish" href="https://youtu.be/smiAcO3UbiQ" target="_blank" rel="noopener">到 YouTube 觀看</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalBook" tabindex="-1" aria-labelledby="modalBookLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalBookLabel">風城書屋《小豆的魔法之旅》</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="關閉"></button>
+        </div>
+        <div class="modal-body">
+          <p>校內自主學習專案，舉辦一場親子共讀繪本工作坊，對象是國小三年級以上的孩子和家長。</p>
+          <ul>
+            <li><strong>時間地點：</strong>2026/10/18（日）光復校區 工程一館 EA101</li>
+            <li><strong>活動流程：</strong>說故事與提問 → 有獎徵答 → DIY 繪畫創作 → 分享與大合照</li>
+            <li><strong>我做的事：</strong>報名審核與家長通知信、物資與流程規劃、工作人員分工、活動回饋問卷</li>
+          </ul>
+
+          <h4 class="modal-sub">繪本內容</h4>
+          <div class="row g-3 mb-3">
+            <div class="col-6"><img src="images/book-1.jpg" class="img-fluid rounded-3" alt="繪本內頁：我是小豆，最喜歡魔法"></div>
+            <div class="col-6"><img src="images/book-2.jpg" class="img-fluid rounded-3" alt="繪本內頁：小豆被爸媽送去魔法學院"></div>
+          </div>
+
+          <h4 class="modal-sub">工作坊現場</h4>
+          <div class="row g-3 mb-3">
+            <div class="col-12 col-md-6">
+              <img src="images/workshop-1.jpg" class="img-fluid rounded-3" alt="有獎徵答頒獎，小朋友拿著獎品合照">
+              <p class="small text-muted mt-1 mb-0">有獎徵答「足智多謀仙包獎」</p>
+            </div>
+            <div class="col-12 col-md-6">
+              <img src="images/workshop-2.jpg" class="img-fluid rounded-3" alt="工作坊結束後的大合照">
+              <p class="small text-muted mt-1 mb-0">活動大合照</p>
+            </div>
+          </div>
+          <a class="btn btn-sm btn-outline-fish" href="https://www.instagram.com/wind_makes_music/" target="_blank" rel="noopener">IG @wind_makes_music</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalLogi" tabindex="-1" aria-labelledby="modalLogiLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalLogiLabel">Logitech 第五屆校園大使</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="關閉"></button>
+        </div>
+        <div class="modal-body">
+          <p>我不只介紹規格，而是從自己的生活出發：課、畢製、剪片同時進行時的多工切換，還有在咖啡廳幫學生上線上家教的窘境，再帶出產品怎麼解決問題，文末附上專屬折扣。</p>
+
+          <!-- 數據 -->
+          <div class="row row-cols-3 g-2 text-center mb-4">
+            <div class="col"><div class="stat"><strong>1.5 萬</strong><span>MX 系列 Reels 觀看</span></div></div>
+            <div class="col"><div class="stat"><strong>≈15 倍</strong><span>觀看數／粉絲數</span></div></div>
+            <div class="col"><div class="stat"><strong>4–5 千</strong><span>單支平均觸及</span></div></div>
+          </div>
+
+          <div class="row g-3">
+            <div class="col-12 col-sm-6">
+              <a href="https://www.instagram.com/p/DdfW-O1z9-P/" target="_blank" rel="noopener">
+                <img src="images/logi-reel-mx.jpg" class="img-fluid rounded-3" alt="MX Master 4 開箱影片畫面">
+              </a>
+              <p class="mt-2 mb-0"><strong>MX 系列高階商務神隊友</strong></p>
+              <p class="small text-muted mb-2">MX Master 4 滑鼠＋MX Keys S 鍵盤｜9/20 發布｜觀看 1.5 萬・89 個讚</p>
+              <a class="btn btn-sm btn-fish" href="https://www.instagram.com/p/DdfW-O1z9-P/" target="_blank" rel="noopener">看影片</a>
+            </div>
+            <div class="col-12 col-sm-6">
+              <a href="https://www.instagram.com/p/DcPz6N9zkHK/" target="_blank" rel="noopener">
+                <img src="images/logi-reel-zone.jpg" class="img-fluid rounded-3" alt="Zone Vibe 100 耳機開箱影片畫面">
+              </a>
+              <p class="mt-2 mb-0"><strong>把咖啡廳升級成行動教室</strong></p>
+              <p class="small text-muted mb-2">Zone Vibe 100 耳機＋Brio 500 網路攝影機｜8/20 發布｜79 個讚</p>
+              <a class="btn btn-sm btn-fish" href="https://www.instagram.com/p/DcPz6N9zkHK/" target="_blank" rel="noopener">看影片</a>
+            </div>
+          </div>
+          <a class="btn btn-sm btn-outline-fish mt-3" href="https://www.instagram.com/reel/DaEmjjCTGl1/" target="_blank" rel="noopener">更多 Logitech 開箱影片</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal77" tabindex="-1" aria-labelledby="modal77Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modal77Label">宏亞食品 77 品牌 第三屆校園大使</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="關閉"></button>
+        </div>
+        <div class="modal-body">
+          <img src="images/ambassador-77.jpg" class="img-fluid rounded-3 mb-3" alt="黃宥瑄拿著 77 新貴派拍攝宣傳照">
+          <p>以校園大使身分深入品牌工廠現場拍攝短影音，帶觀眾看見產品背後的故事；也用貼近大學生日常的情境拍攝新貴派，讓品牌自然出現在生活裡。</p>
+
+          <!-- 數據 -->
+          <p class="modal-sub mb-2">校園大使整體成果（四個品牌合計）</p>
+          <div class="row row-cols-3 g-2 text-center mb-3">
+            <div class="col"><div class="stat"><strong>約 15 篇</strong><span>圖文與短影音</span></div></div>
+            <div class="col"><div class="stat"><strong>約 8 萬</strong><span>觸及人次</span></div></div>
+            <div class="col"><div class="stat"><strong>3 場</strong><span>校園贊助活動</span></div></div>
+          </div>
+          <a class="btn btn-sm btn-outline-fish" href="https://www.instagram.com/reel/DWYNNyAE9OZ/" target="_blank" rel="noopener">看工廠參訪影片</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalKnowii" tabindex="-1" aria-labelledby="modalKnowiiLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalKnowiiLabel">Knowii｜一個最懂你的家教媒合平台</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="關閉"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row g-3 align-items-center">
+            <div class="col-12 col-md-6"><img src="images/work-knowii.jpg" class="img-fluid rounded-3" alt="Knowii App 首頁與篩選畫面"></div>
+            <div class="col-12 col-md-6">
+              <p><strong>核心問題：</strong>家教市場資訊零散，缺乏安全、標準化的媒合機制。</p>
+              <p><strong>做法：</strong>先用親和圖整理家長和學生找家教時在意什麼，再以一位大學生家教老師的觀點設計流程，最後畫出草圖和原型（首頁、篩選學生）。</p>
+              <!-- TODO：把 # 換成 Figma demo 的連結 -->
+              <a class="btn btn-sm btn-fish" href="https://www.figma.com/proto/DQ2xrmS9WzWLtnxaOoBYue/Prototype_Group8?node-id=1-2&p=f&t=9S7n8UbSLB0X6g2Y-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2" target="_blank" rel="noopener">看 Figma Demo</a>
+              <p class="mt-2 mb-0 text-muted small">人機互動概論 課程成果</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalSnake" tabindex="-1" aria-labelledby="modalSnakeLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalSnakeLabel">貪吃蛇小遊戲</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="關閉"></button>
+        </div>
+        <div class="modal-body">
+          <img src="images/work-snake.jpg" class="img-fluid rounded-3 mb-3" alt="貪吃蛇遊戲畫面">
+          <p>JavaScript 網頁程式設計課的作品，用 HTML5 Canvas 畫遊戲畫面。有草地、夜晚、海洋三種主題，30 秒挑戰、最高分紀錄和音量設定，程式碼放在 GitHub。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalCv" tabindex="-1" aria-labelledby="modalCvLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalCvLabel">創意 CV〈X 交匯〉</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="關閉"></button>
+        </div>
+        <div class="modal-body">
+          <img src="images/work-cv.jpg" class="img-fluid rounded-3 mb-3" alt="以金魚和水波為主題的創意履歷">
+          <p>數位影像設計課的作品。用金魚穿梭水波的畫面，寫下一頁關於我的履歷，這也是這個網站用金魚當主角的原因。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 感謝視窗 -->
+  <div class="modal fade" id="thanksModal" tabindex="-1" aria-labelledby="thanksLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content text-center">
+        <div class="modal-body p-5">
+          <img src="images/goldfish.svg" width="110" class="mb-3 fish-swim" alt="">
+          <h3 id="thanksLabel">收到你的訊息了！</h3>
+          <p class="mb-4">我會盡快聯絡你，謝謝你來看我的作品集。</p>
+          <button type="button" class="btn btn-fish" data-bs-dismiss="modal">好的</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+  <!-- 斷開的十字閃光 -->
+  <g stroke="#D63A44" stroke-width="7" stroke-linecap="round">
+    <line x1="30" y1="6" x2="30" y2="20"/>
+    <line x1="30" y1="40" x2="30" y2="54"/>
+    <line x1="6" y1="30" x2="20" y2="30"/>
+    <line x1="40" y1="30" x2="54" y2="30"/>
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 110">
+  <!-- 自己畫的金魚：身體用漸層，邊線用濾鏡做出一點手繪抖動感 -->
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F46B45"/>
+      <stop offset=".55" stop-color="#E2483F"/>
+      <stop offset="1" stop-color="#F59A86"/>
+    </linearGradient>
+    <filter id="rough">
+      <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="3"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.2"/>
+    </filter>
+  </defs>
+  <g filter="url(#rough)" stroke="#5A2A2E" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+    <!-- 尾巴（兩片，輕飄飄的） -->
+    <path d="M100 52 C118 28 146 14 155 26 C161 36 142 46 128 54 C143 58 160 70 153 83 C145 96 118 78 100 60 Z" fill="#F9C3C7" fill-opacity=".9"/>
+    <path d="M110 52 C126 40 140 32 148 30 M112 58 C128 66 142 76 148 82" fill="none" stroke="#E2483F" stroke-width="1.4" opacity=".7"/>
+    <!-- 背鰭 -->
+    <path d="M50 31 C56 13 80 10 92 33" fill="#F9C3C7"/>
+    <!-- 身體 -->
+    <path d="M22 52 C26 32 56 22 82 30 C94 34 102 44 104 54 C102 64 92 72 80 76 C56 84 26 74 22 52 Z" fill="url(#body)"/>
+    <!-- 胸鰭 -->
+    <path d="M52 66 C48 82 62 90 72 76" fill="#F9C3C7"/>
+    <!-- 鰓 -->
+    <path d="M44 38 C50 46 50 60 44 68" fill="none" stroke-width="1.5" opacity=".6"/>
+  </g>
+  <!-- 鱗片亮點 -->
+  <path d="M60 46 q5 4 0 8 M72 42 q5 4 0 8 M70 56 q5 4 0 8 M84 50 q4 4 0 8" fill="none" stroke="#FFF6F4" stroke-width="1.6" stroke-linecap="round" opacity=".85"/>
+  <!-- 眼睛 -->
+  <circle cx="34" cy="48" r="4" fill="#3A2A2D"/>
+  <circle cx="35.4" cy="46.6" r="1.2" fill="#fff"/>
+</svg>

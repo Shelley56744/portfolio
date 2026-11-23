@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <!-- 紅色蠟筆漩渦 -->
+  <defs>
+    <filter id="crayon">
+      <feTurbulence type="fractalNoise" baseFrequency="1.2" numOctaves="2" seed="4"/>
+      <feDisplacementMap in="SourceGraphic" scale="3"/>
+    </filter>
+  </defs>
+  <path filter="url(#crayon)" fill="none" stroke="#D63A44" stroke-width="4.5" stroke-linecap="round" opacity=".85"
+        d="M60 60 C60 55 66 54 68 59 C71 66 62 72 55 68 C46 63 49 49 60 46 C73 43 82 55 78 67 C73 81 54 84 44 75 C32 64 36 42 52 35 C70 27 90 39 91 58 C92 80 72 95 52 92 C30 89 18 68 24 48 C30 28 52 18 72 22"/>
+</svg>
