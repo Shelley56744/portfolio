@@ -105,6 +105,7 @@ form.addEventListener('submit', (e) => {
     return;
   }
 
+  track('contact_submit', { contact_topic: form.querySelector('select')?.value || '' });
   thanksModal.show();
   form.reset();
   form.classList.remove('was-validated');
@@ -145,3 +146,29 @@ if (!reduceMotion) {
 
 // 10. 頁尾年份自動更新
 document.getElementById('year').textContent = new Date().getFullYear();
+
+
+// 9. 追蹤（Google Tag Manager）：把重要的互動丟進 dataLayer，在 GTM 裡用「自訂事件」觸發條件接到 GA4
+window.dataLayer = window.dataLayer || [];
+function track(event, params = {}) {
+  window.dataLayer.push({ event, ...params });
+}
+
+// 打開作品彈出視窗（看更多／看影片）
+document.querySelectorAll('.modal').forEach((modal) => {
+  modal.addEventListener('show.bs.modal', () => {
+    if (modal.id === 'thanksModal') return;
+    const title = modal.querySelector('.modal-title')?.textContent.trim() || modal.id;
+    track('work_open', { work_id: modal.id, work_title: title });
+  });
+});
+
+// 點外部連結（IG、YouTube、Figma、小遊戲、地圖、Email）
+document.addEventListener('click', (e) => {
+  const a = e.target.closest('a[href]');
+  if (!a) return;
+  const href = a.getAttribute('href');
+  if (/^(https?:|mailto:)/.test(href) && !href.startsWith(location.origin)) {
+    track('outbound_click', { link_url: href, link_text: a.textContent.trim().slice(0, 50) });
+  }
+});
